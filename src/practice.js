@@ -1,15 +1,14 @@
-console.log("Hello")
+for(let step =0; step <5; step++ ) 
+console.log("Hello");
 
-// const a = 2
-// const b = 3
-// console.log(a + b)
+const uncoA = 2
+const uncoB = 3
+console.log(uncoA + uncoB)
 
-// const point = 70
-// if(point >= 70){
-//     console.log('OK')
-// }
-// else{
-//     console.log('NG')
-// }
-
-
+const testPoint = 56
+if( testPoint >= 40){
+    console.log("OK")
+}
+else{
+    console.log("NG")
+}
