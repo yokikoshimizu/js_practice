@@ -12,14 +12,14 @@ $button[2].textContent = answers[2];
 $button[3].textContent = answers[3];
 
 $button[0].addEventListener('click', () => {
-    correct === true ? window.alert('正解') : window.alert('不正解');
+    answers[0] === correct ? window.alert('正解') : window.alert('不正解');
 });
 $button[1].addEventListener('click', () => {
-    correct === true ? window.alert('正解') : window.alert('不正解');
+    answers[1] === correct ? window.alert('正解') : window.alert('不正解');
 });
 $button[2].addEventListener('click', () => {
-    correct === true ? window.alert('正解') : window.alert('不正解');
+    answers[2] === correct ? window.alert('正解') : window.alert('不正解');
 });
 $button[3].addEventListener('click', () => {
-    correct === true ? window.alert('正解') : window.alert('不正解');
+    answers[3] === correct ? window.alert('正解') : window.alert('不正解');
 });
